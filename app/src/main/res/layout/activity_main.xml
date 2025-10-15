@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Menu Kedai MangLala"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:contentDescription="Gambar 1"
+            android:src="@drawable/gambar3" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi Goreng adalah salah satu makanan khas Indonesia yang paling populer. Terbuat dari nasi putih yang digoreng dengan bumbu seperti bawang putih, bawang merah, kecap manis, saus tiram, serta tambahan bahan lain seperti telur, ayam, udang, atau sosis. Biasanya disajikan dengan irisan mentimun, tomat, dan kerupuk. Ciri khasnya adalah aroma khas dari bumbu yang ditumis serta rasa gurih dan sedikit manis dari kecap manis."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/button1_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Gambar" />
+
+            <Button
+                android:id="@+id/button1_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagikan Gambar"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:contentDescription="Gambar 2"
+            android:src="@drawable/gambar1" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bakso adalah makanan berkuah khas Indonesia yang terbuat dari daging sapi giling dicampur tepung tapioka dan bumbu, lalu dibentuk bulat seperti bola. Disajikan dalam kuah kaldu sapi yang gurih, lengkap dengan mi, bihun, tahu, sawi, dan kadang pangsit goreng."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/button2_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Gambar" />
+
+            <Button
+                android:id="@+id/button2_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagikan Gambar"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:contentDescription="Gambar 3"
+            android:src="@drawable/gambar2" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mie Ayam adalah hidangan mi kuning kenyal yang disajikan dengan potongan daging ayam berbumbu manis gurih. Biasanya dilengkapi dengan sawi, pangsit, dan kuah kaldu yang ringan namun lezat. Ciri khasnya adalah topping ayam kecap yang gurih dan manis, berpadu dengan minyak bawang yang harum. Beberapa varian menambahkan bakso atau ceker ayam untuk menambah cita rasa."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/button3_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Gambar" />
+
+            <Button
+                android:id="@+id/button3_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagikan Gambar"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
